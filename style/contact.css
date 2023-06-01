@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .clr {
+    clear: both;
+  }
+  /* navbar */
+  nav {
+    background-color: #fff;
+    padding: 0 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .logo {
+    float: left;
+  }
+  .menu {
+    float: right;
+    padding-top: 15px;
+  }
+  .menu ul li {
+    float: left;
+    list-style: none;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+  }
+        /********************* home ****************/
+.home {
+  background-image: url(..//images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 30vh;
+  text-align: center;
+}
+.caption {
+  padding-top: 90px;
+  color: white;
+}
+.caption h2 {
+  font-size: 50px;
+}
+/********************* contact us ****************/
+.contact-us{
+  padding: 100px 0;
+}
+.form{
+  width: 60%;
+  float: left;
+}
+.name-email{
+  width: 100%;
+}
+.name-email input{
+  width: 49%;
+  float: left;
+  padding: 10px 5px;
+}
+.name-email input:nth-child(2){
+  float: right;
+}
+form input{
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 5px;
+}
+form textarea{
+  width: 100%;
+  height: 250px;
+  padding: 10px 5px;
+  resize: none;
+}
+form button{
+  padding: 8px 15px;
+  border: none;
+  background-color: #8e7754;
+  color: #fff;
+}
+form button:hover{
+  cursor: pointer;
+}
+form input:focus,textarea:focus{
+  outline-color: #8e7754;
+}
+.info{
+  width: 40%;
+  float: left;
+  padding: 0 70px;
+}
+.info p{
+  padding: 10px 0;
+}
+.info h6{
+  padding-bottom: 10px;
+}
+.inf{
+  padding-bottom: 20px;
+}
+
+.inf img{
+  float: left;
+  padding-right: 10px;
+}
+.inf p{
+  padding-top: 8px;
+}
+/********************* map ****************/
+iframe{
+  width: 100%;
+  height: 400px;
+  border: 0;
+}
+/************** footer section more info **********************/
+footer .more-info{
+  background-color: #403D38;
+  padding: 80px 0;
+}
+.more-info h5{
+  color: white;
+}
+.line{
+  width: 100%;
+  height: .5px;
+  background-color: #777676;
+  margin: 8px 0;
+  margin-left: -12px;
+  opacity: .4;
+}
+.about{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+.about p{
+  color: #777676;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 8px;
+}
+.special{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+.ul-more-info {
+  list-style-type: "> ";
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.ul-more-info li {
+  color: #777676;
+  font-size: 12px;
+}
+.opening{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+
+.detils{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+.wall{
+  background-image: url(../images/contact-details-map.png);
+  background-size: cover;
+}
+
+/************** footer section social medi **********************/
+
+footer .social-media{
+  background-color: #353330;
+  padding: 50px 0 ;
+  text-align: center;
+}
+.social-media p{
+  color: #777676;
+  padding: 20px 0;
+}

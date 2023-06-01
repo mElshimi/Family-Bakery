@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .clr {
+    clear: both;
+  }
+  /* navbar */
+  nav {
+    background-color:#fff;
+    padding: 0 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .logo {
+    float: left;
+  }
+  .menu {
+    float: right;
+    padding-top: 15px;
+  }
+  .menu ul li {
+    float: left;
+    list-style: none;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+  }
+      /********************* home ****************/
+.home {
+  background-image: url(..//images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 30vh;
+  text-align: center;
+}
+.caption {
+  padding-top: 90px;
+  color: white;
+}
+.caption h2 {
+  font-size: 50px;
+}
+/********************* gallery ****************/
+.gallery{
+  padding: 100px 0 ;
+}
+.pic{
+  width: calc(100%/3);
+  float: left;
+  padding: 2px 3px;
+}
+.pic img{
+  width: 100%;
+  height: 350px;
+}
+/************** footer section more info **********************/
+footer .more-info{
+  background-color: #403D38;
+  padding: 80px 0;
+}
+.more-info h5{
+  color: white;
+}
+.line{
+  width: 100%;
+  height: .5px;
+  background-color: #777676;
+  margin: 8px 0;
+  margin-left: -12px;
+  opacity: .4;
+}
+.about{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+.about p{
+  color: #777676;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 8px;
+}
+.special{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+.ul-more-info {
+  list-style-type: "> ";
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.ul-more-info li {
+  color: #777676;
+  font-size: 12px;
+}
+.opening{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+
+.detils{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+.wall{
+  background-image: url(../images/contact-details-map.png);
+  background-size: cover;
+}
+
+/************** footer section social medi **********************/
+
+footer .social-media{
+  background-color: #353330;
+  padding: 50px 0 ;
+  text-align: center;
+}
+.social-media p{
+  color: #777676;
+  padding: 20px 0;
+}
